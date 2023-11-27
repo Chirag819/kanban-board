@@ -4,19 +4,19 @@
     box-sizing: border-box;
   }
   :root{
-    --white1: #ffffff;
-    --black1: #000000;
+    --white1: hsl(0, 0%, 100%);
+    --black1: hsl(0, 0%, 0%);
   
-    --textgrey: #808184;
+    --textgrey: hsl(225, 2%, 51%);
   
-    --grey1: #dfe4e9;
-    --grey2: #f0f1f4;
-    --grey3: #F8F8FA;
+    --grey1: hsl(210, 19%, 89%);
+    --grey2: hsl(225, 15%, 95%);
+    --grey3: hsl(240, 17%, 98%);
   
   }
   .board-details{
     width: 100%;
-    height: calc(100vh - 68px);
+    height: calc(100vh - 69px);
     background-color: var(--grey2);
     overflow-x: scroll;
   }
